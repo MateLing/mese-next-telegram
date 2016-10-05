@@ -2,7 +2,7 @@
 
 module.exports = {
     tgInterval: 1000,
-    tgGatherTimeout: 600 * 1000,
+    tgGatherTimeout: 300 * 1000,
     tgGatherRemind: 30 * 1000,
     tgReadyTimeout: 30 * 1000,
 
@@ -11,7 +11,7 @@ module.exports = {
 
     tgmesePreset: 'modern',
     tgmeseSettings: [{}, {}, {}, {}, {}, {}, {}, {}],
-    tgmeseCloseTimeout: 180 * 1000,
-    tgmeseCloseRemind: 60 * 1000,
+    tgmeseCloseTimeout: 90 * 1000,
+    tgmeseCloseRemind: 20 * 1000,
     tgmeseReportTimeout: 7200 * 1000,
 };
