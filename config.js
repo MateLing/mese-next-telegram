@@ -38,7 +38,7 @@ module.exports = {
 },{
     demand: 100
 }],
-    tgmeseCloseTimeout: 75 * 1000,
-    tgmeseCloseRemind: 30 * 1000,
+    tgmeseCloseTimeout: 50 * 1000,
+    tgmeseCloseRemind: 10 * 1000,
     tgmeseReportTimeout: 7200 * 1000,
 };
