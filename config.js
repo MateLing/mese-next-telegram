@@ -4,7 +4,7 @@ module.exports = {
     tgInterval: 1000,
     tgGatherTimeout: 1024 * 1000,
     tgGatherRemind: 30 * 1000,
-    tgReadyTimeout: 30 * 1000,
+    tgReadyTimeout: 5 * 1000,
 
     meseEngine: './mese',
     meseMaxPlayer: 32, // TODO
@@ -37,7 +37,7 @@ module.exports = {
     demand: 150,
 },{
     demand: 100
-},]],
+}],
     tgmeseCloseTimeout: 75 * 1000,
     tgmeseCloseRemind: 30 * 1000,
     tgmeseReportTimeout: 7200 * 1000,
